@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  display: flex;
+  color: white;
+  font-size: 18px;
+  justify-items: center;
+  justify-content: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+a{
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+a:hover{
+  color: white;
+  border-bottom: solid 2px #7D49E5;
+  transition-timing-function: ease-in 500;
+  transition-duration: 500ms;
+
+}
+
+
+#head{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px 5px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  background-color: #7D49E5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+border: #7D49E5 solid 1px;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  border: #7D49E5 solid 1px;
+  color: white;
+}
+
+.fa-instagram {
+  border: #7D49E5 solid 1px;
+  color: white;
+}
